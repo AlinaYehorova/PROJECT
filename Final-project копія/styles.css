@@ -1,0 +1,62 @@
+@import url('./css/header.css');
+@import url('./css/main.css');
+@import url('./css/events.css');
+@import url('./css/upcoming.css');
+@import url('./css/join.css');
+@import url('./css/popular.css');
+@import url('./css/friendships.css');
+@import url('./css/footer.css');
+
+
+
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(33, 33, 33, 1);
+}
+
+.container {
+  max-width: 1196px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+}
+
+
+
+
+
+select {
+  padding: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  appearance: none;
+  width: 100%;
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 200px;
+}
+.select-arrow {
+  position: absolute;
+  top: 17px;
+  right: 14px;
+  pointer-events: none;
+}

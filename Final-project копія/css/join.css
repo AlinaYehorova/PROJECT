@@ -1,0 +1,107 @@
+.join__meetup {
+    display: flex;
+    padding: 0 56px;
+    justify-content: center;
+    align-items: center;
+    height: 236px;
+    background-color: rgba(151, 202, 209, 0.08);
+    border-radius: 8px;
+}
+
+.join__meetup-leftside h2 {
+    margin-bottom: 16px;
+}
+
+.join__meetup-leftside p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 85%;
+}
+
+.join__meetup-leftside button {
+    width: 192px;
+    height: 40px;
+    padding: 8px 66.6px 8px 66.78px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 35, 89, 1);
+    border: none;
+}
+
+.join__categories {
+    margin-top: 64px;
+}
+
+.joing__categories-title {
+    margin-bottom: 24px;
+}
+
+.join__categories-grids {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.join__categories-grids a {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 112px;
+    top: 360px;
+    padding: 22px 22.5px 16px 22.5px;
+    border-radius: 8px;
+    background: rgba(151, 202, 209, 0.08);
+    align-items: center;
+}
+
+.join__categories-grids a p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+@media (max-width: 576px) {
+    .container {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .container {
+      max-width: 580px;
+    }
+  
+  }
+  
+  @media (max-width: 940px) {
+    .container {
+      max-width: 580px;
+    }
+  }
+  
+  @media (max-width: 1023px) {
+    .container {
+      max-width: 580px;
+    }
+  
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 888px;
+    }
+  
+  }
+  
+  @media (max-width: 1300px) {
+    .container {
+      max-width: 1196px;
+    }
+  
+  }

@@ -1,0 +1,83 @@
+.friendships__title h2 {
+    margin-bottom: 16px;
+}
+
+.friendships__title p {
+    margin-bottom: 28px;
+}
+
+.friendships__grids {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.friendships__grids img {
+    height: 191.5px;
+}
+
+.friendships__grids h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+.friendships__grids .grey {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 93%;
+}
+
+.friendships__grids .green-thin {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 121, 138, 1);
+
+}
+
+
+@media (max-width: 576px) {
+    .container {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .container {
+      max-width: 580px;
+    }
+  
+  }
+  
+  @media (max-width: 940px) {
+    .container {
+      max-width: 580px;
+    }
+  }
+  
+  @media (max-width: 1023px) {
+    .container {
+      max-width: 580px;
+    }
+  
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 888px;
+    }
+  
+  }
+  
+  @media (max-width: 1300px) {
+    .container {
+      max-width: 1196px;
+    }
+  
+  }
