@@ -1,0 +1,136 @@
+.join__meetup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 202, 209, 0.08);
+    border-radius: 8px;
+    padding: 20px 56px 20px 56px;
+}
+
+.join__meetup-leftside {
+    display: flex;
+    flex-direction: column;
+}
+
+.join__meetup-rightside {
+    display: flex;
+}
+
+.join__meetup-leftside img {
+    display: none;
+}
+
+.join__meetup-leftside h2 {
+    margin-bottom: 16px;
+}
+
+.join__meetup-leftside p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 85%;
+}
+
+.join__meetup-leftside button {
+    width: 192px;
+    height: 40px;
+    padding: 8px 66.6px 8px 66.78px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 35, 89, 1);
+    border: none;
+}
+
+.join__categories {
+    margin-top: 64px;
+}
+
+.joing__categories-title {
+    margin-bottom: 24px;
+}
+
+.join__categories-grids {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.join__categories-grids a {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 112px;
+    top: 360px;
+    padding: 22px 22.5px 16px 22.5px;
+    border-radius: 8px;
+    background: rgba(151, 202, 209, 0.08);
+    align-items: center;
+}
+
+.join__categories-grids a p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+@media (max-width: 1400px) {
+    .join-container {
+        max-width: 1156px;
+    }
+    .join__categories-grids {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .join__categories-grids {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .join__meetup {
+        flex-direction: column;
+        padding: 16px 15px;
+        margin: -15px;
+    }
+    .join__meetup-rightside {
+        display: none;
+    }
+    .join__meetup-leftside img {
+        display: flex;
+        height: 136.8px;
+        margin-bottom: 6.2px;
+    }
+
+    .join__meetup-leftside p {
+        margin-bottom: 22px;
+        font-size: 12px;
+    }
+
+    .join__meetup-leftside button {
+        align-self: center;
+        margin-bottom: 24px;
+    }
+    .join__categories-grids {
+      padding: 0 43px;
+    }
+}
+
+@media (max-width: 576px) {
+    .join-container h2 {
+        font-size: 20px;
+    }
+    .join__categories-grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 11px;
+    }
+}
+

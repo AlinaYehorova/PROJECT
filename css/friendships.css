@@ -1,0 +1,91 @@
+.friendships__title h2 {
+    margin-bottom: 16px;
+}
+
+.friendships__title p {
+    margin-bottom: 28px;
+    color: rgba(112, 112, 112, 1)
+}
+
+.friendships__grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 36px;
+    margin-bottom: 64px;
+}
+
+.friendships__grids img {
+    height: 191.5px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.friendships__grids h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+.friendships__grids .grey {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 93%;
+    color: rgba(112, 112, 112, 1)
+}
+
+.friendships__grids .green-thin {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 121, 138, 1);
+
+}
+
+
+@media (max-width: 1400px) {
+    .friendships-container {
+        max-width: 1156px;
+    }
+    .friendships__grids {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .friendships__grids {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .friendships__grids {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .friendships__title p {
+        display: none;
+    }
+
+    .friendships__grids {
+        grid-template-columns: 1fr;    
+    }
+
+    .friendships__grids .grey {
+        width: 50%;
+    }
+
+    .friendships__grids h3 {
+        font-size: 16px;
+        line-height: 26.83px;
+
+    }
+}
+
+@media (max-width: 576px) {}
