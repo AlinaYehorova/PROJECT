@@ -80,17 +80,16 @@
     .join-container {
         max-width: 1156px;
     }
+
     .join__categories-grids {
         justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 }
 
-@media (max-width: 1200px) {
-    .join__categories-grids {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
+@media (max-width: 1200px) {}
 
 @media (max-width: 992px) {}
 
@@ -98,11 +97,12 @@
     .join__meetup {
         flex-direction: column;
         padding: 16px 15px;
-        margin: -15px;
     }
+
     .join__meetup-rightside {
         display: none;
     }
+
     .join__meetup-leftside img {
         display: flex;
         height: 136.8px;
@@ -118,8 +118,9 @@
         align-self: center;
         margin-bottom: 24px;
     }
+
     .join__categories-grids {
-      padding: 0 43px;
+        padding: 0 43px;
     }
 }
 
@@ -127,10 +128,7 @@
     .join-container h2 {
         font-size: 20px;
     }
-    .join__categories-grids {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 11px;
+    .join__meetup {
+        margin: -15px;
     }
 }
-

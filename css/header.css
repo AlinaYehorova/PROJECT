@@ -139,12 +139,12 @@
 }
 #hidden-input_search-event {
   height: 42px;
+  width: calc(100% - 90px);
   border-radius: 8px 0px 0px 8px;
   border-left: none;
   border: 1px solid #D9D9D9;
   border-right: none;
   padding-left: 35px;
-  padding-right: 20vw;
   outline: none;
 }
 
@@ -163,13 +163,17 @@
 
 
 
-
-
 @media (max-width: 992px) {
   .input-first, .input-redBtn {
     display: none;
   }
   .hidden {
     display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__rightside {
+    gap: 15px;
   }
 }

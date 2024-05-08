@@ -77,10 +77,6 @@
         grid-template-columns: 1fr;    
     }
 
-    .friendships__grids .grey {
-        width: 50%;
-    }
-
     .friendships__grids h3 {
         font-size: 16px;
         line-height: 26.83px;
