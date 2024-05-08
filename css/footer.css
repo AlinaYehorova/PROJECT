@@ -23,9 +23,15 @@
     height: 44px;
     padding: 10px 13.8px 10px 14px;
     border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
     border: 2px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 33, 33, 1);;
+    background-color: rgba(33, 33, 33, 1);
+}
+.footer__start button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(33, 33, 33, 1);
 }
 
 .footer__grids {
@@ -48,6 +54,9 @@
     color: rgba(197, 196, 196, 1);
     margin-top: 7px;
     margin-bottom: 17px;
+}
+.footer__grids a:hover {
+    color:rgba(246, 247, 248, 1);
 }
 
 .footer__grids-column {
@@ -89,6 +98,9 @@
     font-weight: 400;
     line-height: 20px;
     color: rgba(197, 196, 196, 1);
+}
+.footer__end a:hover {
+    color:rgba(246, 247, 248, 1);
 }
 
 

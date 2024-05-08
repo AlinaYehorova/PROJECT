@@ -27,17 +27,27 @@
   font-weight: 600;
   font-size: 20px;
 }
+.events__title-leftside a:hover {
+text-decoration: underline;
+}
 
 .events__title-rigthside a {
   color: rgba(0, 121, 138, 1);
   font-weight: 500;
   font-size: 16px;
 }
+.events__title-rigthside a:hover {
+  text-decoration: underline;
+}
 
 .events__grids {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 36px;
+}
+.events__grids a:hover, .events__grids h3:hover {
+  filter:grayscale(0.8);
+  text-decoration: underline;
 }
 
 .events__img {
@@ -46,6 +56,7 @@
   width: 100%;
   object-fit: cover;
 }
+
 .events__grids a h3 {
   width: 82%;
   font-size: 20px;
@@ -79,7 +90,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  top: -355px;
+  top: -260px;
   left: 10px;
   width: 105.22px;
   height: 20px;

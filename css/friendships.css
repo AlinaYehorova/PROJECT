@@ -13,7 +13,12 @@
     gap: 36px;
     margin-bottom: 64px;
 }
-
+.friendships__grids img:hover {
+    filter:grayscale(0.8);
+}
+.friendships__grids .green-thin:hover {
+    text-decoration: underline;
+}
 .friendships__grids img {
     height: 191.5px;
     width: 100%;

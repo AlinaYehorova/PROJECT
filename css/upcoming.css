@@ -15,7 +15,9 @@
   font-weight: 500;
   font-size: 16px;
 }
-
+.upcoming__title-rightside a:hover {
+  text-decoration: underline;
+}
 .upcoming__grids {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -27,6 +29,11 @@
   height: 153px;
   width: 100%;
   object-fit: cover;
+}
+
+.upcoming__grids a:hover, .upcoming__grids h3:hover {
+  filter:grayscale(0.8);
+  text-decoration: underline;
 }
 
 .upcoming__grids h3 {

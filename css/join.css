@@ -67,6 +67,9 @@
     background: rgba(151, 202, 209, 0.08);
     align-items: center;
 }
+.join__categories-grids a:hover {
+    filter:brightness(80%);
+}
 
 .join__categories-grids a p {
     text-align: center;

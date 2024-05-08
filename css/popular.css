@@ -21,6 +21,10 @@
     width: 100%;
     margin-bottom: 24px;
 }
+.popular__cities-grids a:hover {
+    filter: grayscale(0.8);
+    text-decoration: underline;
+}
 
 .popular__works {
     margin-top: 64px;
@@ -36,6 +40,9 @@
     gap: 32px;
 }
 
+.popular__works-sides:hover {
+    filter:brightness(80%);
+}
 
 .popular__works-sides a {
     display: flex;
