@@ -203,6 +203,9 @@ select {
     .events__map {
         display: none;
     }
+    .events__filtred-events {
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {

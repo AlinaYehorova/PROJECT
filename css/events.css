@@ -45,11 +45,12 @@ text-decoration: underline;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 36px;
 }
-.events__grids a:hover, .events__grids h3:hover {
+.events__grids a:hover {
   filter:grayscale(0.8);
+}
+.events__grids h3:hover  {
   text-decoration: underline;
 }
-
 .events__img {
   border-radius: 8px;
   height: 153px;
@@ -86,14 +87,12 @@ text-decoration: underline;
 
 }
 
-.events__grids .online-on-image {
+.online-on-image {
   display: flex;
   align-items: center;
-  position: relative;
-  top: -260px;
-  left: 10px;
-  width: 105.22px;
-  height: 20px;
+  position: absolute;
+  top: 7px;
+  left: 6px;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 1);
   color: rgba(112, 112, 112, 1);
@@ -106,6 +105,10 @@ text-decoration: underline;
 .online-on-image img {
   width: 16px;
   height: 16px;
+}
+
+.events__image-info {
+  position: relative;
 }
 
 .events__info .online {
@@ -122,7 +125,6 @@ text-decoration: underline;
   line-height: 9.73px;
   padding: 1.62px 0.81px 1.62px 0.81px;
 }
-
 
 
 @media (max-width: 1400px) {

@@ -40,7 +40,7 @@
     gap: 32px;
 }
 
-.popular__works-sides:hover {
+.popular__works-sides a:hover {
     filter:brightness(80%);
 }
 
@@ -48,7 +48,6 @@
     display: flex;
     background: rgba(151, 202, 209, 0.08);
     border-radius: 8px;
-    width: 100%;
     padding: 32px 112px 24px 24px;
 }
 
@@ -67,6 +66,9 @@
     margin-right: 24px;
 }
 
+.popular__works-sides>* {
+width: 50%;
+}
 
 @media (max-width: 1400px) {
     .popular__cities-grids {
@@ -105,7 +107,9 @@
     .popular__cities-title p {
         font-size: 12px;
     }
-
+    .popular__works-sides>* {
+        width: 100%;
+        }
     .popular__works-sides {
         flex-direction: column;
     }
