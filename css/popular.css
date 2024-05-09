@@ -46,7 +46,6 @@
 
 .popular__works-sides a {
     display: flex;
-    justify-content: space-between;
     background: rgba(151, 202, 209, 0.08);
     border-radius: 8px;
     width: 100%;
