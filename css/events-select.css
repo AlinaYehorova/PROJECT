@@ -38,32 +38,36 @@ select {
     cursor: pointer;
     outline: none;
 }
+.events__custom-select {
+    position: relative;
+    width: 9em;
+}
 
 #events__select-arrow-1 {
-    position: relative;
+    position: absolute;
     pointer-events: none;
-    top: -25px;
-    left: 85px;
+    top: 25px;
+    left: 120px;
     transform: translate(0, -50%);
     width: 14px;
     height: 14px;
 }
 
 #events__select-arrow-2 {
-    position: relative;
+    position: absolute;
     pointer-events: none;
-    top: -25px;
-    left: 115px;
+    top: 25px;
+    left: 120px;
     transform: translate(0, -50%);
     width: 14px;
     height: 14px;
 }
 
 #events__select-arrow-3 {
-    position: relative;
+    position: absolute;
     pointer-events: none;
-    top: -25px;
-    left: 175px;
+    top: 25px;
+    left: 120px;
     transform: translate(0, -50%);
     width: 14px;
     height: 14px;
